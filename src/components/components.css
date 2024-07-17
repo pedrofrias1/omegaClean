@@ -1,0 +1,156 @@
+.card {
+    width: 600px;
+    height: 150px;
+    padding: 4px;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 24px;
+    box-shadow: 3px 3px 3px gray;
+    border-radius: 16px 8px;
+}
+
+.orange {
+    background-color: rgba(255, 166, 0, 0.868);
+    color: #696969;
+}
+
+.gray {
+    background-color: #696969;
+    color: #dda01d;
+}
+
+.card:hover {
+    background-color: #ffa6009c;
+}
+
+.circle {
+    width: 30px;
+    border-radius: 50%;
+    color: transparent;
+    position: sticky;
+}
+
+.circle-orange {
+    background-color: orange;
+}
+
+.circle-gray {
+    background-color: #969696;
+}
+
+/* header */
+.omega-header {
+    color: #FFFFFF;
+    font-style: italic;
+}
+
+.limpieza {
+    color: #FFFFFF;
+    font-size: 92px;
+    letter-spacing: 2px;
+}
+
+.limpieza-header {
+    color: #FFFFFF;
+    font-size: 1.3em;
+    line-height: 28px;
+}
+
+.big-circle {
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    background-color: #FFFFFF;
+}
+
+/* card-header */
+.card-header {
+    width: 400px;
+    height: 100px;
+    background-color: #FFFFFF3D;
+    margin: 0px 080px 20px 0px;
+    padding: 20px 010px;
+    border-radius: 8px;
+    backdrop-filter: blur(10px);
+    background-color: #FFFFFF3D;
+    box-shadow: 0px 0px 10px 0px rgba(34.999999999999986, 39.99999999999992, 148, 0.1);
+    border: 1px solid #FFFFFF36;
+    border-radius: 8px;
+}
+
+.card-img {
+    background-color: #FFFFFF;
+    width: 60px;
+    border-radius: 13px;
+}
+
+.icons {
+    font-size: 18px;
+    padding: 20px;
+    border-width: 0px 0px 0px 0px;
+    fill: #f3ac1d;
+    color: #dda01d;
+    border-color: #FF6060;
+}
+
+.inerit,
+.no-inerit {
+    font-weight: 600;
+    font-size: 1.1rem;
+}
+
+.no-inerit {
+    color: #696969;
+}
+
+.somos {
+    color: #dda01d;
+}
+
+/* marcas */
+.cont-marcas {
+    width: 90px;
+    height: 90px;
+    background-color: red;
+}
+
+.img-marcas {
+    width: 80px;
+    height: 80px;
+}
+
+.img-marcas:hover {
+    filter: drop-shadow(0 0 10px rgba(0, 0, 0, .8));
+}
+
+.linea {
+    border-top: solid 3px orange;
+    padding-bottom: 5px;
+}
+
+/* card Cont */
+.elementor-widget-wrap {
+    background-color: #dda01d;
+    margin: 15px;
+    padding: 50px;
+    border-radius: 0px 20px 0px 20px;
+}
+
+.elementor-widget:not(:last-child) {
+    margin-bottom: 20px;
+}
+
+.elemento-icon {
+    display: inline-block;
+    line-height: 1;
+    transition: all .3s;
+    color: #69727d;
+    font-size: 50px;
+    text-align: center;
+}
+
+.elementor-heading-title {
+    padding: 0;
+    margin: 0;
+    line-height: 1;
+}
