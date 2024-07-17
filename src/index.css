@@ -8,7 +8,9 @@
 
 :root {
   --bg-color-header: rgba(255, 166, 0);
-  --font-size-h1: 60px;
+  --p-size: 1.2em;
+  --p-height: 1.2em;
+  --font-size-h1: 80px;
   --line-height-h1: 1.4em;
   --letter-spacing-h1: 0.2px;
   --font-size-h2: 44px;
@@ -123,7 +125,12 @@
   display: block;
 }
 
-.font-h1{
+.p-all {
+  font-size: var(--p-size);
+  line-height: var(--p-height);
+}
+
+.font-h1 {
   font-size: var(--font-size-h1);
   line-height: var(--line-height-h1);
   letter-spacing: var(--letter-spacing-h1);
@@ -192,13 +199,14 @@
 }
 
 .group {
-  bottom: 360px;
+  bottom: 300px;
   background-color: rgb(55, 65, 81, 1)
 }
 
 /* header */
 .header {
   background-color: var(--bg-color-header);
+  padding: 0px 108px;
 }
 
 .art-about {
@@ -310,8 +318,9 @@
 
 @media screen and (max-width:1024px) {
   .lg-header {
-    flex-wrap: wrap;
+    flex-wrap: wrap-reverse;
   }
+
 
   .lg-card-main {
     flex-wrap: wrap;
@@ -328,10 +337,6 @@
     width: 560px;
   }
 
-  .limpieza-img {
-    width: 1000px;
-  }
-
   .lg-wrap {
     flex-wrap: wrap;
   }
@@ -342,6 +347,15 @@
     flex-wrap: wrap;
     text-align: center;
     justify-content: center;
+    padding: 5px 0px;
+  }
+
+  .header {
+    padding: 0;
+  }
+
+  .header-container-sm {
+    width: 360px;
   }
 
   .md-form {
@@ -353,12 +367,6 @@
     padding: 0px;
   }
 
-  .limpieza-img {
-    /* margin-top: 5px; */
-    padding-top: 10px;
-    width: 760px;
-  }
-
   .direction {
     display: flex;
     flex-direction: column;
@@ -366,6 +374,12 @@
     justify-content: center;
   }
 
+  .limpieza-header {
+    width: 300px;
+    position: relative;
+    left: 20px;
+  }
+ 
 }
 
 @media screen and (min-width:430px) {
@@ -379,26 +393,23 @@
     height: 105px;
     padding-left: 20px;
   }
-
-  .limpieza-img {
-    width: 430px;
-  }
+ 
 }
 
-@media screen and (max-width:430px) {
-  .nav-footer {
-    display: flex !important;
-    flex-direction: row !important;
-    justify-content: space-around !important;
-    align-items: center !important;
+@media screen and (max-width:360px) {
+  .header-container-sm {
+    width: 360px;
+    flex-wrap: wrap-reverse;
   }
 
-  .sm-form {
+  .header-container {
+    width: 100%;
     text-align: center;
   }
 
-  .div-icon-footer {
-    justify-content: space-around;
-    align-items: center;
+  .contactanos{
+    /* font-size: 30px; */
+    /* font-weight: 500; */
   }
+
 }

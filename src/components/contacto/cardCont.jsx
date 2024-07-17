@@ -13,7 +13,7 @@ function CardCont() {
                 {
                     contenido.map((cont) => {
                         return <div class="elementor-column relative flex elementor w-100">
-                            <div class="elementor-widget-wrap elementor-element-populated w-100">
+                            <div class="elementor-widget-wrap elementor-element-populated ">
                                 <div className="elementor-element elementor-widget">
                                     <div className="elementor-widget-container">
                                         <i className={cont.bi} id="icons-elementor"></i>
@@ -21,22 +21,22 @@ function CardCont() {
 
                                 </div>
                                 <div className="elementor-element">
-                                    <div className="elementor-widget-container">
+                                    <div className="elementor-widget-container w-100">
                                         <h3 className="font-h3 title-cont">{cont.title} </h3>
                                     </div>
 
                                 </div>
-                                <div className="elementor-element">
+                                <div className="elementor-element w-100">
                                         <div className="elementor-widget-container">
                                             <hr />
                                         </div>
                                 </div>
-                                <div className="elementor-element">
+                                <div className="elementor-element w-100">
                                     <div className="elementor-widget-container">
                                             <h5 className="font-h5">{cont.sub} </h5>
                                     </div>
                                 </div>
-                                <div className="elementor-element">
+                                <div className="elementor-element w-100">
                                     <div className="elementor-widget-container">
                                         <p className="p-elementor">{cont.parrafo} </p>
                                         <p className="p-elementor title-cont pointer">{cont.parrEmail} </p>

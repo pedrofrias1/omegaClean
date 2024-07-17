@@ -8,10 +8,10 @@ function Main() {
     return (
         <main className="main">
             <section className="flex justify-around align-center xl-section " id="contacto">
-                <article className="flex flex-col justify-center align-center gap-2 art-about ">
+                <article className="flex flex-col justify-center align-center gap-2 art-about w-100">
                     <h2 className="omega-header font-h2">QUIENES <span className="somos">SOMOS</span></h2>
-                    <p>Somos una distribuidora mayorista de productos de limpieza para el hogar.</p>
-                    <p>Nuestro objetivo primordial es poder suplir las necesidades de nuestros clientes, orientandonos en la rápida entrega de pedidos, precios competitivos y calidad de productos.</p>
+                    <p className="">Somos una distribuidora mayorista de productos de limpieza para el hogar.</p>
+                    <p className="">Nuestro objetivo primordial es poder suplir las necesidades de nuestros clientes, orientandonos en la rápida entrega de pedidos, precios competitivos y calidad de productos.</p>
                     <Card />
                     <div className="flex align-start justify-around pt-4 direction">
 
@@ -37,7 +37,7 @@ function Main() {
                     </div>
                    <Link to="/Contact"><BtnContac/></Link> 
                 </article>
-                <img src={limpieza} alt="limpieza" className="limpieza-img w-100 pt-4" />
+                <img src={limpieza} alt="limpieza" className="w-100 pt-4" />
             </section>
 
             <section className="pt-24 pb-24 ">
