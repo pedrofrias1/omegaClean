@@ -20,7 +20,7 @@ function Header() {
                             damping: 20
                         }}>
                         <h2 className="omega-header font-h2">OMEGA</h2>
-                        <h1 className="limpieza font-h1">LIMPIEZA</h1>
+                        <h1 className="limpieza font-h1 font-phone-h1">LIMPIEZA</h1>
                         <p className="limpieza-header">Mayorista de productos de limpieaza para el hogar</p>
                         <Card />
                     </motion.div>
