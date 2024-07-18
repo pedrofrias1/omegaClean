@@ -9,7 +9,7 @@ function Card() {
         <div className="flex flex-col gap-2">
             {
                 buy.map((bey) => {
-                    return <div className="card-header flex gap-2" id="cardHeader">
+                    return <div className="card-header card-sm flex gap-2" id="cardHeader">
                         <div className="card-img ">
                             <a href="" className="elementor flex">
                                 {bey.items === 'grey' ? <i class="bi bi-cart3 icons"></i> : <i class="bi bi-book icons"></i>}

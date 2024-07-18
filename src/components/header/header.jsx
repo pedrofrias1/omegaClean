@@ -9,8 +9,8 @@ function Header() {
         <Fragment>
 
 
-            <header className="header-mx header flex pt-5 justify-between items-center pb-10 lg-header header-container-sm">
-                <div className="flex flex-col gap-2 header-container ">
+            <header className="header-mx header flex pt-5 justify-between items-center pb-10 lg-header header-container-sm w-100">
+                <div className="flex flex-col gap-2 header-container w-100">
                     <h2 className="omega-header font-h2">OMEGA</h2>
                         <h1 className="limpieza font-h1 font-phone-h1">LIMPIEZA</h1>
                             <div className="limpieza-header">
