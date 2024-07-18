@@ -16,7 +16,7 @@ function Carrusel() {
                 {
                     img.map((imagen) => {
                         return <div className="carousel-item active" data-bs-interval="10000">
-                            <img src={imagen.img} className="w-50 img-carousel ml-24 mt-12 " alt={imagen.alt} />
+                            <img src={imagen.img} className="w-50 img-carousel ml-20 mt-12 " alt={imagen.alt} />
                             {/* <span className="text-center">{imagen.span} </span> */}
                         </div>
                     })

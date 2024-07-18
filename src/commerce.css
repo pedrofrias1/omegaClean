@@ -1,0 +1,28 @@
+/* .ul-component{
+    border: 2px solid black;
+} */
+
+.box-li{
+    border: 1px solid gray;
+
+}
+
+.cont-commerce{
+    border: 1px solid black;
+    width: 285.72px;
+    height: 130px;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2px;
+}
+
+.box-img{
+ width: 100%;
+}
+
+.img-component{
+    width: 200px;
+}
