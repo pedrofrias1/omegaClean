@@ -13,14 +13,16 @@ function Main() {
                     <p className="">Somos una distribuidora mayorista de productos de limpieza para el hogar.</p>
                     <p className="">Nuestro objetivo primordial es poder suplir las necesidades de nuestros clientes, orientandonos en la rápida entrega de pedidos, precios competitivos y calidad de productos.</p>
                     <Card />
-                    <div className="flex align-start justify-around pt-4 direction">
+                    <div className="flex align-start justify-between pt-4 direction">
 
                         <div className="flex flex-col pt-3">
                             <div className="card-img">
                                 <i class="bi bi-geo-alt icons"></i>
                             </div>
                             <span className="pt-2">DIRECCION</span>
-                            <span className="text-center">ARIA VELAZQUEZ 773</span>
+                            <span className="pt-2">ARIA VELAZQUEZ 773</span>
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3622.9824116448995!2d-65.41391922485124!3d-24.761792177993815!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x941bc3d95979d711%3A0x237a1b8d86568a6b!2sArias%20Vel%C3%A1squez%20733%2C%20A4400%20Salta!5e0!3m2!1ses-419!2sar!4v1720720275957!5m2!1ses-419!2sar" width="190" height="200"></iframe>
+
                         </div>
 
                         <div className="flex flex-col pt-3">
@@ -30,8 +32,8 @@ function Main() {
                             <span className="pt-2">
                                 TELEFONO & E-MAIL
                             </span>
-                            <span>387-619-5572</span>
-                            <span>omega.distribuciones.salta@gmail.com</span>
+                            <span className="pt-2">387-619-5572</span>
+                            <span className="pt-2">omega.distribuciones.salta@gmail.com</span>
                         </div>
 
                     </div>

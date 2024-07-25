@@ -15,7 +15,7 @@ function Card() {
                                 {bey.items === 'grey' ? <i class="bi bi-cart3 icons"></i> : <i class="bi bi-book icons"></i>}
                             </a>
                         </div>
-                        <Link to="/Comerce" className="flex flex-col  justify-center text-left">
+                        <Link to={bey.items==="grey"?"/Comerce":"/"} className="flex flex-col  justify-center text-left">
 
                             <p className={bey.title === 'Compra online de productos de limpieza' ? "inerit" : "no-inerit"} >{bey.title}</p>
                             <span>{bey.span}</span>
